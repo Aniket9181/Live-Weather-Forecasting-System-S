@@ -1,0 +1,48 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+.footeroftheWebsite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#display {
+  overflow: hidden;
+  height: auto;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 74vh;
+  opacity: 0.9;
+  z-index: -1;
+}
+#display .display-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 5vw;
+  color: red;
+  font-weight: 900;
+}
+.AddonProperty {
+  background-image: none;
+}
